@@ -11,7 +11,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>hey!</h1>
+      <ul>
+        <li>1</li>
+        <li className={`${styles.flex2}`}>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li className={`${styles.flex2}`}>5</li>
+        <li>6</li>
+      </ul>
     </div>
   )
 }
