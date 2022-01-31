@@ -6,14 +6,14 @@
     background: linear-gradient(353deg, rgba(148, 210, 189, 1) 40%, rgba(61, 147, 151, 1) 100%);
 }
 
-
-/* add row to page layout */
-
-.row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 4%
+@media (min-width: 550px) {
+    /* add row to page layout */
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 4%
+    }
 }
 
 @media (min-width: 800px) {
