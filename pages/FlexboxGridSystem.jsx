@@ -56,14 +56,14 @@ const FlexboxGridSystem = () => {
 
       {/* Row 3: One box per column */}
       <div className={styles.row}>
-        <div className={styles.figure}>
+        <div className={`${styles.figure} ${styles.span3}`}>
           <div className={styles.two}></div>
           <div className={styles.figcaption}>
             <h2>Abstract 2</h2>
             <p>lorem ipsum dolor sit amet, consectetur adip</p>
           </div>
         </div>
-        <div className={styles.figure}>
+        <div className={`${styles.figure}`}>
           <div className={styles.four}></div>
           <div className={styles.figcaption}>
             <h2>Abstract 4</h2>
@@ -74,7 +74,7 @@ const FlexboxGridSystem = () => {
 
       {/* Row 4: One box per column */}
       <div className={styles.row}>
-        <div className={styles.figure}>
+        <div className={`${styles.figure} ${styles.span4}`}>
           <div className={styles.four}></div>
           <div className={styles.figcaption}>
             <h2>Abstract 4</h2>
@@ -92,7 +92,7 @@ const FlexboxGridSystem = () => {
             <p>lorem ipsum dolor sit amet, consectetur adip</p>
           </div>
         </div>
-        <div className={styles.figure}>
+        <div className={`${styles.figure} ${styles.span2}`}>
           <div className={styles.five}></div>
           <div className={styles.figcaption}>
             <h2>Abstract 2</h2>
