@@ -1,8 +1,19 @@
 .body {
+    padding: 0.5rem;
     min-height: 100%;
     min-width: 100%;
     font-size: 1.5rem;
     background: linear-gradient(353deg, rgba(148, 210, 189, 1) 40%, rgba(61, 147, 151, 1) 100%);
+}
+
+
+/* add row to page layout */
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 4%
 }
 
 
@@ -11,6 +22,11 @@
 .figure {
     margin: 0;
     padding: 0;
+    flex-basis: 22%
+}
+
+.span2 {
+    flex-basis: 48%;
 }
 
 
